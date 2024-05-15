@@ -15,18 +15,15 @@
     <div class="wrapper">
         <header class="header">
             <div class="container">
-                <div class="header__row">
 
-                    <div class="header__logo">
-                        
-                    </div>
+                <div class="header__row2">
+                    <img src="images/top2.png" alt="banner">
+                </div>
+
+                <div class="header__row">
 
                     <div class="header__center">
                         <a href="https://" target="_blank"> <img src="images/img-logo3.png" alt="logo site"> </a>
-                    </div>
-
-                    <div class="header__right">
-
                     </div>
 
                 </div>
@@ -53,9 +50,9 @@
                 </div>
 
                 <div class="main__row4">
-                    <a href="https://" target="_blank"> <img src="images/Twitter1.png" alt="twitter"> </a>
-                    <a href="https://" target="_blank"> <img src="images/Tele1.png" alt="telegram"> </a>
-                    <a href="https://" target="_blank"> <img src="images/Dex1.png" alt="dex"> </a>
+                    <a href="https://" target="_blank"> <img class="socials1" src="images/Twitter1.png" alt="twitter"> </a>
+                    <a href="https://" target="_blank"> <img class="socials1" src="images/Tele1.png" alt="telegram"> </a>
+                    <a href="https://" target="_blank"> <img class="socials1" src="images/Dex1.png" alt="dex"> </a>
                 </div>
 
             </div>
@@ -131,6 +128,22 @@
         </footer>
         
     </div>
+    <script>
+        function myFunction() {
+          // Get the text field
+          var copyText = document.getElementById("myInput");
+        
+          // Select the text field
+          copyText.select();
+          copyText.setSelectionRange(0, 99999); // For mobile devices
+        
+          // Copy the text inside the text field
+          navigator.clipboard.writeText(copyText.value);
+          
+          // Alert the copied text
+          alert("Copied the text: " + copyText.value);
+        }
+    </script>
 
 </body>
 
