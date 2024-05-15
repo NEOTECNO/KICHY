@@ -817,8 +817,12 @@ textarea.error {
   .main__row2 img {
     width: 90vw;
   }
+  .main__row3 {
+    padding-bottom: 0px;
+  }
   .main__row3 img {
     width: 60vw;
+    padding-bottom: 0px;
   }
   .main__row4 {
     width: 100vw;
