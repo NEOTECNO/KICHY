@@ -802,6 +802,10 @@ textarea.error {
 }
 
 @media (max-width: 800px) {
+  .socials1:hover {
+    width: 75px;
+  }
+
   .main {
     width: 100vw;
   }
