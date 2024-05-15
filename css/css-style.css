@@ -809,6 +809,11 @@ textarea.error {
     padding-top: 10px;
     padding-bottom: 6px;
   }
+  .header__row2 {
+    width: 100vw;
+    padding-top: 10px;
+    padding-bottom: 0px;
+  }
   .header__center {
     width: 100vw;
     align-items: center;
