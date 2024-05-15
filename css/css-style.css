@@ -333,6 +333,7 @@ body {
 }
 
 .main__row3 {
+  height: 170px;
   display: flex;
   position: relative;
   justify-content: center;
@@ -343,11 +344,16 @@ body {
   -webkit-filter: drop-shadow(0px 0px 0px #ff0000);
 }
 .main__row3 img {
-  max-width: 320px;
+  width: 320px;
   margin: 10px;
 }
 
+.buy_here:hover {
+  width: 350px;
+}
+
 .main__row4 {
+  height: 180px;
   display: flex;
   position: relative;
   justify-content: center;
@@ -858,13 +864,18 @@ textarea.error {
     width: 90vw;
   }
   .main__row3 {
+    height: 100%;
     padding-bottom: 0px;
   }
   .main__row3 img {
     width: 60vw;
     padding-bottom: 0px;
   }
+  .buy_here:hover {
+    width: 63vw;
+  }
   .main__row4 {
+    height: 120px;
     width: 100vw;
     padding-bottom: 20px;
   }
